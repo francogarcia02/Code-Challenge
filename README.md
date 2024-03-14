@@ -1,4 +1,4 @@
-### Project README
+### Project CODE-CHALLENGE
 
 #### Decisions Taken:
 I chose to use StyleSheet for styling because it is convenient and easy to use. I utilized a global stylesheet with this tool.
