@@ -26,6 +26,9 @@ const styles = StyleSheet.create({
         marginTop: 15,
         marginBottom: 10
     },
+    line1:{
+
+    }
 })
 
 export default function StyledText({children, bold, gray, big, body, small, separator}){

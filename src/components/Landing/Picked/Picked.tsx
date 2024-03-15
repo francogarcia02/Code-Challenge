@@ -5,10 +5,12 @@ import StyleList from '../../../StyleList';
 import List from '../../List/List'
 
 const Picked = () => {
+    const pick = {picked: true}
+
     return(
         <View style={StyleList.flatsContainer}>
             <StyledText big bold>Hand picked</StyledText>
-            <List/>
+            <List {...pick}/>
         </View>
     )
 }

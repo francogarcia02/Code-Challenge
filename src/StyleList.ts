@@ -1,6 +1,52 @@
 import {StyleSheet} from 'react-native';
+import Constants from 'expo-constants';
 
 const StyleList = StyleSheet.create({
+    flexSubHeader:{
+        width: 400,
+        padding: 30,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+    },
+    subHeaderItem:{
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'white',
+        borderRadius: 100,
+        borderWidth: 0.5,
+        borderColor: 'gray',
+        padding: 7,
+    },
+    flexCard:{
+        width: 400,
+        overflow: 'hidden',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: 30,
+        paddingLeft: 30,
+        margin: 20,
+        gap: 20,
+        background: 'linear-gradient(to bottom, #ff7e5f, #feb47b)',
+        borderRadius: 20,
+    },
+    flexCardText:{
+        width: '75%',
+    },
+    cardTextTitle:{
+        fontSize: 18,
+        paddingBottom: 10,
+        fontWeight: '700',
+    },
+    cardTextSubTitle:{
+        fontSize: 18,
+        fontWeight: '300',
+    },
+    cardIcon:{
+        paddingLeft: 10,
+        paddingBottom: 10
+    },
     flexTitle:{
         flexDirection: 'row',
         justifyContent: 'space-between'
@@ -14,10 +60,17 @@ const StyleList = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    pageContainer:{
+        marginTop: Constants.statusBarHeight,
+        flexGrow: 1,
+        backgroundColor: 'white',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
     flatsContainer:{
         flex: 1,
         alignItems: 'start',
-        justifyContent: 'start',
+        justifyContent: 'center',
         width: 400,
         height: 400,
         padding: 10,
@@ -53,6 +106,12 @@ const StyleList = StyleSheet.create({
         right: 10
     },
     heartIcon:{
+        padding: 10,
+        backgroundColor: 'white',
+        borderRadius: 100,
+    },
+    heartIconHidden:{
+        display: 'none',
         padding: 10,
         backgroundColor: 'white',
         borderRadius: 100,

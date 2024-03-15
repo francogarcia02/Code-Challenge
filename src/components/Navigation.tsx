@@ -16,14 +16,21 @@ function MyTabs() {
         <Tab.Navigator
             initialRouteName='Home'
             screenOptions={{
+                headerShown: false,
+                tabHeaderStyle:{
+                    color: 'red'
+                },
                 tabBarStyle: {
-                    height: 90,
-                    borderTopWidth: 1,
+                    height: 100,
+                    borderTopWidth: 0.1,
                     borderTopColor: '#CECECE',
+                },
+                tabBarIconStyle:{
+                    marginTop: 20,
                 },
                 tabBarLabelStyle: {
                     fontSize: 10,
-                    marginBottom: 25,
+                    marginBottom: 30,
                 },
                 tabBarActiveTintColor: '#FA8072',
                 tabBarInactiveTintColor: 'black'

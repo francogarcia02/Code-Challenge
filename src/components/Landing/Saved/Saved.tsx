@@ -5,10 +5,12 @@ import StyleList from '../../../StyleList';
 import List from '../../List/List'
 
 const Saved = () => {
+    const save = {saved: true}
+
     return(
         <View style={StyleList.flatsContainer}>
             <StyledText big bold>Saved</StyledText>
-            <List/>
+            <List {...save}/>
         </View>
     )
 }

@@ -5,6 +5,7 @@ export default [
     address: 'Singapore, Singapore',
     price: 100,
     stars: 4.2,
+    picked: false,
     id: 1
     },
     {
@@ -13,6 +14,7 @@ export default [
     address: 'Buenos Aires, Argentina',
     price: 60,
     stars: 3.7,
+    picked: true,
     id: 2
     },
     {
@@ -21,6 +23,7 @@ export default [
     address: 'Sidney, Australia',
     price: 88,
     stars: 5,
+    picked: false,
     id: 3
     },
     {
@@ -29,6 +32,7 @@ export default [
     address: 'London, United Kingdom',
     price: 92,
     stars: 4,
+    picked: true,
     id: 4
     },
     {
@@ -37,6 +41,7 @@ export default [
     address: 'Hong Kong, China',
     price: 120,
     stars: 4.6,
+    picked: true,
     id: 5
     }
 ]
