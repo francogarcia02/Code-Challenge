@@ -9,7 +9,7 @@ const Card = () => {
     return(
         <LinearGradient
             style={StyleList.flexCard}
-            colors={['#E9D5FA','#FCDFCB']}
+            colors={['#E9D5FB','#FCDACA','#FBEECB']}
             start={{x: 1, y: 1}}
             end={{x: 0, y: 0}}
             >
