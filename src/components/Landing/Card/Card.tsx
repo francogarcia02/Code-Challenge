@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import StyledText from '../../StyledText/StyledText';
 import StyleList from '../../../StyleList';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/Ionicons';
 import {LinearGradient} from 'expo-linear-gradient'
 
 const Card = () => {
@@ -14,7 +14,7 @@ const Card = () => {
             end={{x: 0, y: 0}}
             >
             <View style={StyleList.flexCardText}>
-                <Icon name='home' size={25} color='black' style={StyleList.cardIcon}/>
+                <Icon name='home-outline' size={25} color='black' style={StyleList.cardIcon}/>
                 <Text style={StyleList.cardTextTitle}>Earn extra credits</Text>
                 <Text style={StyleList.cardTextSubTitle}>Earn 350 SC by adding your home. You ll be traveling more!</Text>
             </View>

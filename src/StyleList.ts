@@ -1,7 +1,12 @@
 import {StyleSheet} from 'react-native';
-import Constants from 'expo-constants';
 
 const StyleList = StyleSheet.create({
+    flexHeader:{
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%',
+        height: 175,
+    },
     flexSubHeader:{
         width: 400,
         padding: 30,
@@ -10,29 +15,64 @@ const StyleList = StyleSheet.create({
         justifyContent: 'space-between'
     },
     subHeaderItem:{
+        flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         backgroundColor: 'white',
         borderRadius: 100,
         borderWidth: 0.5,
         borderColor: 'gray',
-        padding: 7,
+        padding: 6,
+        textAlign: 'center',
+    },
+    subHeaderItemIcon:{
+        paddingLeft: 5,
+        paddingRight: 2.5,
+        fontWeight: '700',
+        fontSize: 16
+    },
+    subHeaderItemText:{
+        paddingLeft: 2.5,
+        paddingRight: 5,
+        fontWeight: '700',
+        fontSize: 16
+    },
+    flexHeaderInput:{
+        width: 350,
+        flexDirection: 'row',
+        alignItems: 'center',
+        padding: 15,
+        backgroundColor: 'white',
+        borderRadius: 30,
+        borderColor: 'gray',
+        borderWidth: 0.2,
+        shadowColor: '#000000',
+        shadowOffset: { width: 0, height: 200 },
+        elevation: 25,
+    },
+    headerInputSubCont:{
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    inputText:{
+        color: 'gray',
+        width: 275,
     },
     flexCard:{
-        width: 400,
+        width: 380,
         overflow: 'hidden',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         padding: 30,
-        paddingLeft: 30,
         margin: 20,
         gap: 20,
         background: 'linear-gradient(to bottom, #ff7e5f, #feb47b)',
         borderRadius: 20,
     },
     flexCardText:{
-        width: '75%',
+        width: 200,
+        marginRight: 10
     },
     cardTextTitle:{
         fontSize: 18,
@@ -44,7 +84,7 @@ const StyleList = StyleSheet.create({
         fontWeight: '300',
     },
     cardIcon:{
-        paddingLeft: 10,
+        paddingLeft: 8,
         paddingBottom: 10
     },
     flexTitle:{
@@ -61,8 +101,8 @@ const StyleList = StyleSheet.create({
         justifyContent: 'center',
     },
     pageContainer:{
-        marginTop: Constants.statusBarHeight,
         flexGrow: 1,
+        width: '100%',
         backgroundColor: 'white',
         alignItems: 'center',
         justifyContent: 'center'
@@ -119,3 +159,5 @@ const StyleList = StyleSheet.create({
 })
 
 export default StyleList
+
+

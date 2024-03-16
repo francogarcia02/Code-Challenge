@@ -1,5 +1,6 @@
-import { Text, View, ScrollView } from 'react-native';
+import { Text, View, ScrollView, StatusBar } from 'react-native';
 import React from 'react';
+import Constants from 'expo-constants';
 
 import Suggested from './Landing/Suggested/Suggested';
 import Picked from './Landing/Picked/Picked';
@@ -12,6 +13,7 @@ import StyleList from '../StyleList';
 const Main = () => {
     return(
     <ScrollView>
+        <StatusBar/>
         <View style={StyleList.pageContainer}>
             <Header/>
             <Card/>

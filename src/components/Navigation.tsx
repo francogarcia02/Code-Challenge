@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 import Main from './Main';
 import History from './Screens/History';
@@ -35,52 +35,52 @@ function MyTabs() {
                 tabBarActiveTintColor: '#FA8072',
                 tabBarInactiveTintColor: 'black'
             }}
-        >
+            >
             <Tab.Screen
                 name="Home"
                 component={Main}
                 options={{
                     tabBarIcon: ({color, size}) => (
-                        <Icon name="home" size={size} color={color} />
+                        <Icon name="home-outline" size={size} color={color} />
                     )
                 }}
-            />
+                />
             <Tab.Screen
                 name="History"
                 component={History}
                 options={{
                     tabBarIcon: ({color, size}) => (
-                        <Icon name="bed" size={size} color={color} />
+                        <Icon name="bed-outline" size={size} color={color} />
                     )
                 }}
-            />
+                />
             <Tab.Screen
                 name="Explore"
                 component={Explore}
                 options={{
                     tabBarIcon: ({color, size}) => (
-                        <Icon name="search" size={size} color={color} />
+                        <Icon name="search-outline" size={size} color={color} />
                     )
                 }}
-            />
+                />
             <Tab.Screen
                 name="Messages"
                 component={Messages}
                 options={{
                     tabBarIcon: ({color, size}) => (
-                        <Icon name="envelope" size={size} color={color} />
+                        <Icon name="chatbubbles-outline" size={size} color={color} />
                     )
                 }}
-            />
+                />
             <Tab.Screen
                 name="Account"
                 component={Account}
                 options={{
                     tabBarIcon: ({color, size}) => (
-                        <Icon name="user-o" size={size} color={color} />
+                        <Icon name="person-outline" size={size} color={color} />
                     )
                 }}
-            />
+                />
         </Tab.Navigator>
     )
 }
