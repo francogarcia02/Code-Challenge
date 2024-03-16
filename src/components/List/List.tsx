@@ -41,7 +41,6 @@ const List = (props) => {
         <FlatList
             data={container}
             horizontal
-            showsHorizontalScrollIndicator={false}
             renderItem={({ item }) => (
                 <Item {...item} />
             )}

@@ -11,4 +11,5 @@ I chose to use StyleSheet for styling due to its convenience and ease of use, im
 4. Utilize the Expo app on a mobile device to scan the QR code or use a mobile device emulator.
 
 #### Code Documentation:
-I provided screenshots from android while the application was running
+I provided screenshots from android while the application was running,
+save them in the assets/Screenshots folder

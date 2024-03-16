@@ -8,7 +8,7 @@ const StyleList = StyleSheet.create({
         height: 175,
     },
     flexSubHeader:{
-        width: 400,
+        width: '100%',
         padding: 30,
         flexDirection: 'row',
         alignItems: 'center',
@@ -41,14 +41,17 @@ const StyleList = StyleSheet.create({
         width: '85%',
         flexDirection: 'row',
         alignItems: 'center',
+        justifyContent: 'space-between',
         padding: 15,
         backgroundColor: 'white',
-        borderRadius: 30,
+        borderRadius: 40,
         borderColor: 'gray',
         borderWidth: 0.2,
         shadowColor: '#000000',
-        shadowOffset: { width: 0, height: 200 },
-        elevation: 25,
+        shadowOffset: { width: 0, height: 3 },
+        shadowOpacity: 0.3,
+        shadowRadius: 3,
+        elevation: 20,
     },
     headerInputSubCont:{
         flexDirection: 'row',
@@ -57,7 +60,8 @@ const StyleList = StyleSheet.create({
     inputText:{
         color: 'gray',
         width: '83%',
-        paddingLeft: 10,
+        padding: 10,
+        borderColor: 'transparent'
     },
     flexCard:{
         width: '92%',

@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, TextInput, ImageBackground} from 'react-native';
+import {View, Text, TextInput, ImageBackground, children} from 'react-native';
 import StyleList from '../../../StyleList';
 import Icon from 'react-native-vector-icons/Ionicons';
 import RNRadialGradient from 'react-native-radial-gradient';
@@ -17,7 +17,7 @@ const Header = () =>{
             <View style={StyleList.flexHeaderInput}>
                 <View style={StyleList.headerInputSubCont}>
                     <Icon name="search-outline" size={25} color='gray'/>
-                    <TextInput style={StyleList.inputText}>Where to next?</TextInput>
+                    <TextInput style={StyleList.inputText} placeholder="What to next?" decoration='none'>{children}</TextInput>
                 </View>
                 <Icon name="menu" size={25} color='gray'/>
             </View>
