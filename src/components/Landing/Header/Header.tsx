@@ -16,10 +16,10 @@ const Header = () =>{
             </View>
             <View style={StyleList.flexHeaderInput}>
                 <View style={StyleList.headerInputSubCont}>
-                    <Icon name="search-outline" size={20} color='gray'/>
+                    <Icon name="search-outline" size={25} color='gray'/>
                     <TextInput style={StyleList.inputText}>Where to next?</TextInput>
                 </View>
-                <Icon name="menu" size={20} color='gray'/>
+                <Icon name="menu" size={25} color='gray'/>
             </View>
         </ImageBackground>
     )

@@ -38,7 +38,7 @@ const StyleList = StyleSheet.create({
         fontSize: 16
     },
     flexHeaderInput:{
-        width: 350,
+        width: '85%',
         flexDirection: 'row',
         alignItems: 'center',
         padding: 15,
@@ -56,10 +56,11 @@ const StyleList = StyleSheet.create({
     },
     inputText:{
         color: 'gray',
-        width: 275,
+        width: '83%',
+        paddingLeft: 10,
     },
     flexCard:{
-        width: 380,
+        width: '92%',
         overflow: 'hidden',
         flexDirection: 'row',
         alignItems: 'center',
@@ -71,7 +72,7 @@ const StyleList = StyleSheet.create({
         borderRadius: 20,
     },
     flexCardText:{
-        width: 200,
+        width: '65%',
         marginRight: 10
     },
     cardTextTitle:{
@@ -111,7 +112,7 @@ const StyleList = StyleSheet.create({
         flex: 1,
         alignItems: 'start',
         justifyContent: 'center',
-        width: 400,
+        width: '97%',
         height: 400,
         padding: 10,
         margin: 10
@@ -121,7 +122,7 @@ const StyleList = StyleSheet.create({
         alignItems: 'start',
         justifyContent: 'start',
         position: 'relative',
-        width: 300,
+        width: '100%',
         height: 400,
         borderRadius: 10,
         marginRight: 20,
@@ -132,7 +133,7 @@ const StyleList = StyleSheet.create({
         width: 250
     },
     image: {
-        width: 300,
+        width: '100%',
         height: 200,
         borderRadius: 20,
         marginBottom: 20
